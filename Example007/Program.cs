@@ -7,7 +7,7 @@ Console.WriteLine("сумма чисел стоящих на нечетной п
 
 while (counter < n)
 {
-    sum = sum+array[counter];
+    sum = sum+1;
     counter=counter +2;
 }
 Console.WriteLine(sum);
