@@ -30,16 +30,16 @@ int result=0;
 for (int i=0; i<array.Length; i++)
     if (array[i] % 2 == 0)
     {
-        result = result + array[i];
+        result = result + 1; 
     }
-Console.WriteLine("Сумма четных чисел в массиве:");    
+Console.WriteLine("Количество четных чисел в массиве:");    
 Console.WriteLine(result); 
 
 int find=0;
 for (int index=0; index<array.Length; index++)
     if (array[index] %2!=0)
     {
-        find = find + array[index];
+        find = find + 1;
     }
-Console.WriteLine("Сумма нечетных чисел в массиве:");    
+Console.WriteLine("Количество нечетных чисел в массиве:");    
 Console.WriteLine(find); 
