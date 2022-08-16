@@ -27,11 +27,11 @@ PrintArray(array);
 Console.WriteLine(" ");
 
 int count=0;
-int i =1;
+int i =0;
     while (i<array.Length)
     {
         if (array [i] >=10 && array[i] <= 99)
-        count = count + i;
+        count = count + 1;
         i++;
     }
     
